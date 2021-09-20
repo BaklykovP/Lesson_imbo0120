@@ -1,10 +1,9 @@
 package com.company.practice3;
 
+import com.company.practice3.practice3_2.HumanTest;
+
 public class Main {
     public static void main(String[] args) {
-        // task 1
-        CircleTest test1 = new CircleTest();
-        // task 2
-        HumanTest test2 = new HumanTest();
+
     }
 }

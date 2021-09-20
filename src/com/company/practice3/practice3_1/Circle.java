@@ -1,4 +1,4 @@
-package com.company.practice3;
+package com.company.practice3.practice3_1;
 
 public class Circle {
     private final double PI = 3.14;
