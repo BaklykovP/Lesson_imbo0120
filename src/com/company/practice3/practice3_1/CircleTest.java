@@ -1,7 +1,5 @@
 package com.company.practice3.practice3_1;
 
-import com.company.practice3.practice3_1.Circle;
-
 import java.util.Scanner;
 
 public class CircleTest {

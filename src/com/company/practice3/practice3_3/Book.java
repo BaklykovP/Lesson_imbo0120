@@ -15,15 +15,26 @@ public class Book {
         return author;
     }
 
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getTime() {
         return time;
     }
 
-    @Override
+    public void setTime(int time) {
+        this.time = time;
+    }
+
     public String toString() {
         return "Book{" +
                 "author='" + author + '\'' +
