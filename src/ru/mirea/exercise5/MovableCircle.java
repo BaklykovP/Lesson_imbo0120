@@ -1,14 +1,14 @@
 package ru.mirea.exercise5;
 
-public class MovableCircle extends Point implements Movable {
+public class MovableCircle extends Circle implements Movable {
 
-    public MovableCircle(int x, int y) {
-        super(x, y);
+    public MovableCircle(Point center, double radius) {
+        super(center, radius);
     }
 
     @Override
     public void move(int x, int y) {
-        this.setX(getX() + x);
-        this.setY(getY() + y);
+        getCenter().setX(getCenter().getX() + x);
+        getCenter().setY(getCenter().getY() + y);
     }
 }

@@ -18,7 +18,6 @@ public class Circle {
         return radius;
     }
 
-
     @Override
     public String toString() {
         return "Circle{" +
