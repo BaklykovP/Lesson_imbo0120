@@ -8,7 +8,7 @@ public class Main {
 
         Circle circle = new Circle(new Point(1, 1), 10);
         System.out.println(circle);
-        // point movement
+        // Circle movement
         System.out.println("Movable Circle:");
         MovableCircle movableCircle = new MovableCircle(circle.getCenter(), circle.getRadius());
         System.out.println(movableCircle.getCenter());
