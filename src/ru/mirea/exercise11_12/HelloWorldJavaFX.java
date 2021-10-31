@@ -1,4 +1,4 @@
-package ru.mirea.exercise11_12.src;
+package ru.mirea.exercise11_12;
 
 import javafx.application.Application;
 import javafx.scene.Group;
