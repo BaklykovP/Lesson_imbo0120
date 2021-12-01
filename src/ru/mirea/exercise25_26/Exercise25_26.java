@@ -29,6 +29,14 @@ public class Exercise25_26 {
         String json = GSON.toJson(MoscowMetro);
 
 
+        writeInfoToFile(json);
+
+
+        System.out.println(json);
+        System.out.println();
+    }
+
+    private static void writeInfoToFile(String json) throws IOException {
         File file = new File("src\\ru\\mirea\\exercise25_26\\res\\metroMoscowInfo.txt");
 
         if(!file.exists())
@@ -36,12 +44,7 @@ public class Exercise25_26 {
 
         PrintWriter pw = new PrintWriter(file);
         pw.println(json);
-
-
-        System.out.println(json);
-        System.out.println();
     }
-
 
 
     private static void ParseHTML(List<MetroLine> metroLinesList, List<MetroStation> metroStationList) throws IOException {
