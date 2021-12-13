@@ -1,12 +1,10 @@
 package ru.mirea.exercise13_14;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 
 import java.util.ArrayList;
-
 public class Controller {
     @FXML
     private Text buttonText0;
@@ -202,7 +200,6 @@ public class Controller {
             case 15:
                 buttonText15.setText("O");
                 break;
-
         }
     }
 
@@ -233,6 +230,5 @@ public class Controller {
                 System.out.print(arrayButton.get(i) + " ");
         }
         System.out.println();
-
     }
 }

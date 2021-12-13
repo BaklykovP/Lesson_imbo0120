@@ -1,7 +1,5 @@
 package ru.mirea.exercise7;
 
-
-
 public class Main {
     public static void main(String[] args){
         // Test Dish
@@ -20,7 +18,6 @@ public class Main {
         Corgi corgi = new Corgi(12, 14, "light brown");
         corgi.actionCorgi();
         System.out.println("\n" + labrador + "\n" + corgi + "\n");
-
 
     }
 }

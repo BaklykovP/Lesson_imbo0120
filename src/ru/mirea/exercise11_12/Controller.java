@@ -1,5 +1,4 @@
 package ru.mirea.exercise11_12;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -10,17 +9,11 @@ public class Controller {
     private Text input;
     @FXML
     private Text output;
-
     private long num1 = 0;
     private long num2 = 0;
-
     private boolean start = true;
-
-
     private String operator = "";
     private Model model = new Model();
-
-
     @FXML
     private void processNum(ActionEvent event) {
         if (start) {
@@ -32,7 +25,6 @@ public class Controller {
         String value = ((Button) event.getSource()).getText();
         input.setText(input.getText() + value);
     }
-
     @FXML
     private void processOperator(ActionEvent event) {
         String value = ((Button) event.getSource()).getText();
@@ -48,8 +40,6 @@ public class Controller {
             input.setText(model.mathematicalExample(String.valueOf(num1), String.valueOf(num2), operator));
             operator = "";
             start = true;
-
         }
-
     }
 }

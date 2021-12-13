@@ -20,11 +20,12 @@ public class MovableRectangle extends Rectangle implements Movable {
     }
 
     public void CheckSpeed(){
-        if(Math.sqrt(Math.pow(getUpperLeftPoint().getX() - upperLeftPoint2.getX() ,2) + Math.pow(getUpperLeftPoint().getY() - upperLeftPoint2.getY(), 2))
-                == Math.sqrt(Math.pow(getLowerRightPoint().getX() - lowerRightPoint2.getX(), 2) + Math.pow(getLowerRightPoint().getY() - lowerRightPoint2.getY(), 2)))
+        if(Math.sqrt(Math.pow(getUpperLeftPoint().getX() - upperLeftPoint2.getX() ,2)
+                + Math.pow(getUpperLeftPoint().getY() - upperLeftPoint2.getY(), 2))
+                == Math.sqrt(Math.pow(getLowerRightPoint().getX() - lowerRightPoint2.getX(), 2)
+                + Math.pow(getLowerRightPoint().getY() - lowerRightPoint2.getY(), 2)))
             System.out.println("Speed is the same");
         else
             System.out.println("Speed is different");
     }
-
 }

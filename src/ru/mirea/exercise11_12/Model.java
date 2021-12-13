@@ -1,7 +1,5 @@
 package ru.mirea.exercise11_12;
-
 public class Model {
-
     public double calculation(double a, double b, String operator) {
         switch (operator) {
             case "+":
@@ -21,5 +19,4 @@ public class Model {
     public String mathematicalExample(String a, String b, String operator){
         return (a + operator + b);
     }
-
 }

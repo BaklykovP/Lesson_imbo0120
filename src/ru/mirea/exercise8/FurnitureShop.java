@@ -47,7 +47,6 @@ public class FurnitureShop {
             value= inputValue(0);
             if(value == 2)
                 break;
-
         }
     }
 
@@ -80,7 +79,4 @@ public class FurnitureShop {
                 "Basket=" + Basket +
                 '}';
     }
-
-
-
 }

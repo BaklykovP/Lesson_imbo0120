@@ -31,9 +31,5 @@ public class ATM implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
-
-
 }

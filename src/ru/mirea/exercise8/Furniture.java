@@ -10,7 +10,6 @@ public abstract class Furniture {
         this.type = type;
         this.price = price;
     }
-
     @Override
     public String toString() {
         return "Furniture{" +
@@ -19,6 +18,4 @@ public abstract class Furniture {
                 ", price=" + price +
                 '}';
     }
-
-
 }

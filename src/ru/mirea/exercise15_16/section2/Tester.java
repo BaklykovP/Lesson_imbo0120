@@ -26,6 +26,5 @@ public class Tester {
         service.execute(atm3);
 
         service.shutdown();
-
     }
 }

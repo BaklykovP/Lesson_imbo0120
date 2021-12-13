@@ -6,8 +6,6 @@ import javafx.scene.Scene;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-
-
 public class HelloWorldJavaFX extends Application {
     public static void main(String[] args) {
 
@@ -19,9 +17,7 @@ public class HelloWorldJavaFX extends Application {
         Text text = new Text("Hello World!");
         text.setLayoutY(80);
         text.setLayoutX(110);
-
         Group group = new Group(text);
-
         Scene scene = new Scene(group);
         stage.setScene(scene);
         stage.setTitle("HelloWorld Application");

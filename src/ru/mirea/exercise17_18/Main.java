@@ -11,7 +11,6 @@ public class Main {
         section2();
         //Пункт третий
         section3();
-
     }
 
     private static void section1() {
@@ -45,6 +44,4 @@ public class Main {
             System.out.print(m3.group() + ", ");
         }
     }
-
-
 }

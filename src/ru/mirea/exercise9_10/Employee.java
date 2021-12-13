@@ -1,10 +1,5 @@
 package ru.mirea.exercise9_10;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Employee {
-    // Доделать имена и фамилию потом
     private String firstname;
     private String surname;
     private int salary;
@@ -36,7 +31,6 @@ public class Employee {
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
-
     public void setSurname(String surname) {
         this.surname = surname;
     }
@@ -60,7 +54,6 @@ public class Employee {
                 break;
         }
     }
-
     public int getSalary() {
         return salary;
     }
@@ -68,14 +61,4 @@ public class Employee {
     public String getJobTitle() {
         return JobTitle;
     }
-
-//    @Override
-//    public String toString() {
-//        return "Employee{" +
-//                "firstname='" + firstname + '\'' +
-//                ", surname='" + surname + '\'' +
-//                ", salary=" + salary +
-//                ", JobTitle='" + JobTitle + '\'' +
-//                "}\n";
-//    }
 }
